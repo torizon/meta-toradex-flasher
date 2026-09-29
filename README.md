@@ -1,6 +1,7 @@
 # meta-toradex-flasher
 
-This layer provides a standalone tool for flashing raw (WIC) images onto Toradex devices (System-On-Modules). It serves as an alternative to the Toradex Easy Installer.
+This layer provides a standalone tool for flashing raw (WIC) images onto Toradex devices (System-On-Modules).
+It serves as an alternative to the Toradex Easy Installer.
 
 It provides a small distro called `flasher` along with a recipe that produces a self-contained ZIP archive containing the bootloader binary capable of performing flashing operations plus the flashing scripts.
 
@@ -84,15 +85,15 @@ For usage instructions see [docs/USAGE.md](docs/USAGE.md).
 
 ## Contributing
 
-This layer is maintained by Toradex. The canonical repository is
-[github.com/torizon/meta-toradex-flasher](https://github.com/torizon/meta-toradex-flasher).
+This layer is maintained by Toradex.
+The canonical repository is [github.com/torizon/meta-toradex-flasher](https://github.com/torizon/meta-toradex-flasher).
 
-To report a bug or request support for an additional module, open an issue in
-that repository. To contribute a fix or improvement, open a pull request
-against the `scarthgap-7.x.y` branch.
+To report a bug or request support for an additional module, open an issue in that repository.
+To contribute a fix or improvement, open a pull request against the `scarthgap-7.x.y` branch.
 
 ## License
 
-All metadata is MIT licensed unless otherwise stated; see the [LICENSE](./LICENSE) file. Source code and binaries included in tree for individual recipes is under the LICENSE stated in each recipe (.bb file) unless otherwise stated.
+All metadata is MIT licensed unless otherwise stated; see the [LICENSE](./LICENSE) file.
+Source code and binaries included in tree for individual recipes is under the LICENSE stated in each recipe (.bb file) unless otherwise stated.
 
 This README document is Copyright (C) 2026 Toradex AG.
