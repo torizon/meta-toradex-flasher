@@ -84,7 +84,12 @@ For usage instructions see [docs/USAGE.md](docs/USAGE.md).
 
 ## Contributing
 
-This layer is maintained by Toradex.
+This layer is maintained by Toradex. The canonical repository is
+[github.com/torizon/meta-toradex-flasher](https://github.com/torizon/meta-toradex-flasher).
+
+To report a bug or request support for an additional module, open an issue in
+that repository. To contribute a fix or improvement, open a pull request
+against the `scarthgap-7.x.y` branch.
 
 ## License
 
