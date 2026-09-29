@@ -16,7 +16,7 @@ The instructions here assume the `repo` workspace directory to be named `toradex
 ```
 $ mkdir toradex-flasher/
 $ cd toradex-flasher/
-$ repo init -u https://github.com/rborn-tx/toradex-manifest.git -b scarthgap-7.x.y-flasher -m flasher/default.xml
+$ repo init -u https://git.toradex.com/toradex-manifest.git -b scarthgap-7.x.y -m flasher/default.xml
 $ repo sync
 ```
 
